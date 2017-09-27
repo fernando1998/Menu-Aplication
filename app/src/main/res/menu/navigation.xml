@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_nav_main"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_reg_tick"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Registrar Ticket Nuevo" />
+        <item
+            android:id="@+id/nav_cons_tick"
+            android:checked="true"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Consultar estado de Ticket" />
+
+        <item
+            android:id="@+id/nav_cons_todo_tick"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Consultar todos los Tickets" />
+
+        <item
+            android:id="@+id/nav_asig_tick"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Asignar ticker Tecnico" />
+
+        <item
+            android:id="@+id/nav_rep_tick"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Reporte de Tickets" />
+        <item
+            android:id="@+id/nav_cons_tick_asig"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Consultar Tickets Asignados" />
+        <item
+            android:id="@+id/nav_aten_tick_asig"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Atender Tickets Asignados" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_nav_system"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_person"
+            android:title="Perfil"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Configuracion" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="Cerrar Sesion" />
+    </group>
+
+</menu>

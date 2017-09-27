@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MBR TECHNOLOGY</string>
+
+    <string name="app_user">User:</string>
+    <string name="app_user_hint">USER</string>
+    <string name="app_password">Password:</string>
+    <string name="app_password_hint">PASSWORD</string>
+    <string name="app_button_submit">INICIAR SESION</string>
+</resources>
